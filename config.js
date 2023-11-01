@@ -37,7 +37,7 @@ module.exports = {
   BRANCH: 'main', 
   ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? '' : process.env.ALIVE_MESSAGE,
   autobio:  process.env.AUTO_BIO === undefined ? false : process.env.AUTO_BIO,
-  OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? '' : process.env.OPENAI_API_KEY,
+  OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? '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' : process.env.OPENAI_API_KEY,
   heroku:  process.env.heroku === undefined ? false : process.env.heroku,
   HEROKU: {
     HEROKU: process.env.HEROKU ||false,
