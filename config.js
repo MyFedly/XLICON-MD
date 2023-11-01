@@ -37,11 +37,11 @@ module.exports = {
   BRANCH: 'main', 
   ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? '' : process.env.ALIVE_MESSAGE,
   autobio:  process.env.AUTO_BIO === undefined ? false : process.env.AUTO_BIO,
-  OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? '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' : process.env.OPENAI_API_KEY,
+  OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? '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' : process.env.OPENAI_API_KEY,
   heroku:  process.env.heroku === undefined ? false : process.env.heroku,
   HEROKU: {
     HEROKU: process.env.HEROKU ||false,
-    API_KEY: process.env.HEROKU_API_KEY === undefined ? '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' : process.env.HEROKU_API_KEY,
+    API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,
     APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HEROKU_APP_NAME
 },
   VERSION: process.env.VERSION === undefined ? 'v.0.0.3' : process.env.VERSION,
