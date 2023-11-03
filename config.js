@@ -37,7 +37,7 @@ module.exports = {
   BRANCH: 'main', 
   ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? '' : process.env.ALIVE_MESSAGE,
   autobio:  process.env.AUTO_BIO === undefined ? false : process.env.AUTO_BIO,
-  OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? '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' : process.env.OPENAI_API_KEY,
+  OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? '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' : process.env.OPENAI_API_KEY,
   heroku:  process.env.heroku === undefined ? false : process.env.heroku,
   HEROKU: {
     HEROKU: process.env.HEROKU ||false,
@@ -45,7 +45,7 @@ module.exports = {
     APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HEROKU_APP_NAME
 },
   VERSION: process.env.VERSION === undefined ? 'v.0.0.3' : process.env.VERSION,
-  LANG: process.env.THEME|| 'GOJO',
+  LANG: process.env.THEME|| 'ZEROTWO',
   WORKTYPE: process.env.WORKTYPE === undefined ? 'public' : process.env.WORKTYPE
 };
 
